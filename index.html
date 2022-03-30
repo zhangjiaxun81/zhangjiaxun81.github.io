@@ -152,6 +152,119 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-markdo语法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="这是我的第一篇markdown文章"><a href="#这是我的第一篇markdown文章" class="headerlink" title="这是我的第一篇markdown文章"></a>这是我的第一篇markdown文章</h1><p>markdown的基本语法</p>
+<p>markdown的一切都以Semantics为主  表达的一切都注重你的语意</p>
+<h1 id="井号代表着标题"><a href="#井号代表着标题" class="headerlink" title="#井号代表着标题"></a>#井号代表着标题</h1><p>一个#代表着一级标题 两个#代表着二级标题 以此类推</p>
+<h2 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h2><p>如何强调？<br><strong>把你想要强调的语句两边加两个星号</strong><br>  <strong>格式：✳✳sentence✳✳</strong><br><em>这里的强调并不是标题！</em></p>
+<p>##斜体<br><strong>把想要斜体的语句两边加两个星号</strong><br>  <strong>格式：✳sentence✳</strong></p>
+<p>##列表<br><em>有序列表和无需列表</em></p>
+<ol>
+<li>哈哈哈哈</li>
+<li>哈哈哈<ol>
+<li>哈哈哈哈</li>
+<li>哈哈哈</li>
+<li>哈哈哈</li>
+</ol>
+</li>
+<li>哈哈哈<br>数字+点 +空格<br>如果想在结束本次列表创建新的列表只需要在一个列表之后输入一些文字 例如本次</li>
+<li>哈哈哈哈哈</li>
+<li>哈哈哈哈<ol>
+<li>哈哈哈哈<h2 id="放置图片"><a href="#放置图片" class="headerlink" title="放置图片"></a>放置图片</h2></li>
+</ol>
+</li>
+</ol>
+<p><strong>因为刚才我们已经下载了paste image 插件所以只需要将图片复制黏贴在这里即可</strong><br><img src="/2022-03-30-17-18-02.png"><br><em>猴头老型</em><br><strong>这里paste image插件的快捷键为 ctrl+alt+v</strong></p>
+<h3 id="给图片插入caption-说明文字-的方法"><a href="#给图片插入caption-说明文字-的方法" class="headerlink" title="给图片插入caption(说明文字)的方法"></a>给图片插入caption(说明文字)的方法</h3><p>和让文本成为斜体的方法一样 在图片的下方用一个 <strong>✳</strong> 把caption标记</p>
+<h3 id="插入公式"><a href="#插入公式" class="headerlink" title="插入公式"></a>插入公式</h3><p>方法：两对美元符号($$ $$))中间加空格 记住要在英文输入法下<br>$$<br>\lim_{x \to \infin}\frac{sin(t)}{x}&#x3D;1<br>$$<br>在一段文段之中插入$\lim_{x \to \infin}f(x)$公式</p>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table>
+<thead>
+<tr>
+<th>小明</th>
+<th>大明</th>
+<th>姚明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1.5</td>
+<td>2.5</td>
+<td>3.0</td>
+</tr>
+</tbody></table>
+<p>表格的第一列是表头要用|分隔开<br>表头的下一行要用分割号(-)和|创建新的一行用于生成表格<br>表格的第二行 默认是左对齐 若想实现右对齐和居中需要在分割符的右边加上冒号或在分隔符的两边加上冒号</p>
+<table>
+<thead>
+<tr>
+<th align="right">小明</th>
+<th align="center">大明</th>
+<th>姚明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">1.5</td>
+<td align="center">2.5</td>
+<td>3.5</td>
+</tr>
+<tr>
+<td align="right">注意冒号也是在输入法英文的状态下输入</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="right">此时在Preview之中查看的表格效果是非常美观的可是在md文件之中的效果并不好这就需要我们使用alt+shift+f自动对齐</td>
+<td align="center"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p><a target="_blank" rel="noopener" href="https://zhangjiaxun81.github.io/">这是我的技术博客</a><br><em>方法：直接复制你的链接然后选中你要超链接的文字复制即可</em></p>
+<h2 id="code"><a href="#code" class="headerlink" title="code"></a>code</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">    System.out.println(hello world!)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>方法：用三对&#96;把所需要的代码括起来然后在这之后写上你输入代码的语言</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2022/03/30/markdo%E8%AF%AD%E6%B3%95/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-我的第一篇博客文件" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
